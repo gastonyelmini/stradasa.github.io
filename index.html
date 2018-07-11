@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="content/eco/images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- FONTS -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
@@ -74,7 +74,7 @@
                                             </li>
                                             <li>
                                                 <a href="#strada">
-                                                    <span>Strada</span>
+                                                    <span>Punta Sarmiento</span>
                                                 </a>
                                             </li>
 
@@ -470,68 +470,9 @@
     <script src="plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
     <script src="plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
-    <script>
-        var tpj = jQuery;
-        var revapi1;
-        tpj(document).ready(function () {
-            if (tpj("#rev_slider_1_2").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_1_2");
-            } else {
-                revapi1 = tpj("#rev_slider_1_2").show().revolution({
-                    sliderType: "hero",
-                    sliderLayout: "auto",
-                    dottedOverlay: "none",
-                    delay: 9000,
-                    navigation: {},
-                    visibilityLevels: [1240, 1024, 778, 480],
-                    gridwidth: 1240,
-                    gridheight: 868,
-                    lazyType: "none",
-                    parallax: {
-                        type: "scroll",
-                        origo: "enterpoint",
-                        speed: 400,
-                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-                        type: "scroll",
-                    },
-                    shadow: 0,
-                    spinner: "spinner2",
-                    autoHeight: "off",
-                    disableProgressBar: "on",
-                    hideThumbsOnMobile: "off",
-                    hideSliderAtLimit: 0,
-                    hideCaptionAtLimit: 0,
-                    hideAllCaptionAtLilmit: 0,
-                    debugMode: false,
-                    fallbacks: {
-                        simplifyAll: "off",
-                        disableFocusListener: false,
-                    }
-                });
-            }
-        });
-        /*]]>*/
-    </script>
-
-    <script id="mfn-dnmc-retina-js">
-        jQuery(window).load(function () {
-            var retina = window.devicePixelRatio > 1 ? true : false;
-            if (retina) {
-                var retinaEl = jQuery("#logo img.logo-main");
-                var retinaLogoW = retinaEl.width();
-                var retinaLogoH = retinaEl.height();
-                retinaEl.attr("src", "content/eco/images/retina-eco.png").width(retinaLogoW).height(retinaLogoH);
-                var stickyEl = jQuery("#logo img.logo-sticky");
-                var stickyLogoW = stickyEl.width();
-                var stickyLogoH = stickyEl.height();
-                stickyEl.attr("src", "content/eco/images/retina-eco.png").width(stickyLogoW).height(stickyLogoH);
-                var mobileEl = jQuery("#logo img.logo-mobile");
-                var mobileLogoW = mobileEl.width();
-                var mobileLogoH = mobileEl.height();
-                mobileEl.attr("src", "content/eco/images/retina-eco.png").width(mobileLogoW).height(mobileLogoH);
-            }
-        });
-    </script>
+    <script src="js/slider.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/smooth.js"></script>
 
 </body>
 
