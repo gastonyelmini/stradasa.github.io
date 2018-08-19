@@ -1,0 +1,41 @@
+/* Generales */
+
+.center {
+    text-align: center;
+}
+
+/* Logos de inicio */
+
+.image-cont img {
+    width: 100%;
+}
+
+.logos-container {
+    overflow: hidden;
+}
+
+.logo-single {
+    float: left;
+    width: 33.33%;
+}
+
+.logo-single .desc {
+    height: 80px;
+    padding: 0 2px;
+}
+
+@media (min-width: 768px) {
+    .logo-single {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-single {
+        width: 20%;
+    }
+    .logo-single .image-cont {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
