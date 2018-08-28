@@ -58,11 +58,24 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-cont p {
+    font-size: 15px;
+    line-height: 16px;
+    position: absolute;
 }
 
 @media (min-width: 768px) {
     .logo-single {
         width: 25%;
+    }
+    .overlay-cont p {
+        font-size: 18px;
+        line-height: 20px;
     }
 }
 
@@ -76,5 +89,9 @@
     }
     .image-cont {
         margin-bottom: 20px !important;
+    }
+    .overlay-cont p {
+        font-size: 20px;
+        line-height: 22px;
     }
 }
