@@ -1,11 +1,9 @@
 /* Generales */
-
 .center {
     text-align: center;
 }
 
 /* Logos de inicio */
-
 .image-cont img {
     width: 100%;
 }
@@ -25,7 +23,6 @@
 }
 
 /* Overlay logos */
-
 .overlay {
     position: absolute;
     top: 0;
@@ -69,13 +66,87 @@
     position: absolute;
 }
 
+/* Header nuevo */
+.main-header-area {
+    background: url(../content/eco/images/header.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-cont {}
+
+.main-title-cont h1 {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-title-cont p {
+    text-align: center;
+}
+
+.main-title-cont h3 {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.divider-cont {
+    width: 100%;
+}
+
+.image-cont img {
+    width: 100%;
+    height: 40px;
+}
+
+.image-cont {
+    width: 1px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .logo-main {
+        margin-left: -25px;
+    }
+}
+
 @media (min-width: 768px) {
+    .top_bar_right {
+        display: none;
+    }
+
     .logo-single {
         width: 25%;
     }
+
     .overlay-cont p {
         font-size: 18px;
         line-height: 20px;
+    }
+
+    .main-title-cont {
+        margin-top: 150px;
     }
 }
 
@@ -83,15 +154,52 @@
     .logo-single {
         width: 20%;
     }
+
     .logo-single .image-cont {
         width: 70%;
         margin: 0 auto;
     }
+
     .image-cont {
         margin-bottom: 20px !important;
     }
+
     .overlay-cont p {
         font-size: 20px;
         line-height: 22px;
+    }
+
+    .logo-sticky {
+        margin-top: -5.5px;
+    }
+
+    /* Header */
+    .main-header-area {
+        height: 780px;
+    }
+
+    .main-title-cont {
+        padding: 0 150px;
+    }
+
+    .main-title-cont h1 {
+        font-size: 67px;
+        line-height: 75px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main-title-cont h3 {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 0 40px;
+    }
+
+    .image-cont img {
+        height: 100px;
+    }
+
+    .image-cont {
+        width: 2px;
     }
 }
