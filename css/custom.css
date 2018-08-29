@@ -182,6 +182,10 @@
 }
 
 @media (min-width: 992px) {
+    .top_bar_right {
+        display: block;
+    }
+
     .logo-single {
         width: 20%;
     }
