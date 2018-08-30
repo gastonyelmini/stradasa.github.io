@@ -121,6 +121,20 @@
     margin: 0 auto;
 }
 
+.strada-logo {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.strada-logo-cont img {
+    width: 100%;
+}
+
+.strada-logo-cont {
+    width: 35%;
+    margin: 0 auto;
+}
+
 /* Logo */
 .logo-cont {
     display: flex;
@@ -234,6 +248,10 @@
 
     .image-cont-line {
         width: 2px;
+    }
+
+    .strada-logo-cont {
+        width: 20%;
     }
 
     /* Logo */
