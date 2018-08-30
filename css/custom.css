@@ -41,6 +41,7 @@
 }
 
 .overlay-cont {
+    width: 100%;
     color: white;
     font-size: 20px;
     position: absolute;
@@ -154,12 +155,22 @@
     }
 
     .logo-single {
-        width: 25%;
+        width: 20%;
+    }
+
+    .logo-single .image-cont {
+        width: 50%;
+        margin: 0 auto;
     }
 
     .overlay-cont p {
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .overlay {
+        width: 160%;
+        margin-left: -30%;
     }
 
     .main-title-cont {
@@ -186,22 +197,13 @@
         display: block;
     }
 
-    .logo-single {
-        width: 20%;
-    }
-
-    .logo-single .image-cont {
-        width: 70%;
-        margin: 0 auto;
-    }
-
     .image-cont {
         margin-bottom: 20px !important;
     }
 
     .overlay-cont p {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 17px;
     }
 
     .logo-sticky {
