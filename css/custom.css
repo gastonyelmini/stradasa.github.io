@@ -84,6 +84,7 @@
 
 .main-title-cont h1 {
     color: rgba(255, 255, 255, 1.00);
+    text-shadow: 1px 1px #000;
     font-size: 26px;
     line-height: 31px;
     text-align: center;
@@ -96,6 +97,7 @@
 
 .main-title-cont h3 {
     color: rgba(255, 255, 255, 1.00);
+    text-shadow: 1px 1px #000;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
