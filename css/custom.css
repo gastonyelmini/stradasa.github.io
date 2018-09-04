@@ -17,6 +17,10 @@
   width: 33.33%;
 }
 
+.menu-main-menu-container {
+  margin-right: 60px !important;
+}
+
 /* Overlay logos */
 .overlay {
   position: absolute;
@@ -166,11 +170,6 @@
   .responsive-menu-toggle {
     margin-right: -122px;
   }
-
-  .top_bar_right {
-    display: none;
-  }
-
   .logo-single {
     width: 20%;
   }
@@ -207,13 +206,12 @@
   .responsive-menu-toggle {
     margin-top: 5px !important;
   }
+  .responsive-menu-toggle {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 992px) {
-  .top_bar_right {
-    display: block;
-  }
-
   .image-cont {
     margin-bottom: 20px !important;
   }
@@ -265,5 +263,20 @@
 
   .logo-cont {
     margin-top: -2px;
+  }
+  .menu_wrapper {
+    margin-right: -200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-menu-toggle {
+    right: 30px !important;
+  }
+  .menu-main-menu-container {
+    margin-right: 120px !important;
+  }
+  .main-title-cont h1 {
+    font-size: 50px;
   }
 }
