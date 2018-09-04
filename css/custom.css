@@ -214,6 +214,7 @@
   .overlay-cont p {
     font-size: 15px;
     line-height: 17px;
+    margin-top: 10px;
   }
 
   .logo-sticky {
