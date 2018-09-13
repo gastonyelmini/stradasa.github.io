@@ -6,9 +6,9 @@ error_reporting(0);
   
  // configuration
  
-$email_it_to = "your_own_email_address@some_domain.com";
+$email_it_to = "francisco.prieto@stradasa.com, nestor.prieto@stradasa.com";
 
-$error_message = "Please complete the form first";
+$error_message = "Por favor, complete el formulario primero";
 
 $rnd=$_POST['rnd'];
 $name=$_POST['name'];
@@ -26,9 +26,11 @@ if(!isset($rnd) || !isset($name) || !isset($email) || !isset($subject) || !isset
 $subject = stripslashes($subject);
 $email_from = $email;
 
-$email_message = "Message submitted by '".stripslashes($name)."', email:".$email_from;
-$email_message .=" on ".date("d/m/Y")."\n\n";
-$email_message .= stripslashes($body);
+$email_message = "Nuevo mensaje desde StradaSA Web<br><br>";
+$email_message .= "Nombre: " . stripslashes($name) . "<br>";
+$email_message .= "Email: " . $email_from . "<br>";
+$email_message .="Fecha: ".date("d/m/Y")."<br>";
+$email_message .= "Mensaje: " . stripslashes($body) . "<br>";
 $email_message .="\n\n";
 
 // Always set content-type when sending HTML email
@@ -36,7 +38,7 @@ $email_message .="\n\n";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8". "\r\n";
-$headers .= 'From: '.stripslashes($name);
+$headers .= 'From: "StradaSA" <web@stradasa.com>';
 
 //$headers .= 'From: <'.$email_from.'>' . "\r\n";
 
