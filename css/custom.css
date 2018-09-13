@@ -204,6 +204,10 @@
   .responsive-menu-toggle {
     margin-right: 10px;
   }
+  /* Aria nuova */
+  .render-aria {
+    padding-left: 50px;
+  }
 }
 
 @media (min-width: 992px) {
