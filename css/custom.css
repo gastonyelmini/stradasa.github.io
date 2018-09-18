@@ -21,6 +21,10 @@
   margin-right: 60px !important;
 }
 
+.white {
+  color: #fff;
+}
+
 /* Overlay logos */
 .overlay {
   position: absolute;
@@ -84,8 +88,7 @@
   align-items: center;
 }
 
-.main-title-cont {
-}
+.main-title-cont {}
 
 .main-title-cont h1 {
   color: rgba(255, 255, 255, 1);
@@ -170,6 +173,7 @@
   .responsive-menu-toggle {
     margin-right: -122px;
   }
+
   .logo-single {
     width: 20%;
   }
@@ -201,9 +205,11 @@
   .responsive-menu-toggle {
     margin-top: 5px !important;
   }
+
   .responsive-menu-toggle {
     margin-right: 10px;
   }
+
   /* Aria nuova */
   .render-aria {
     padding-left: 50px;
@@ -264,6 +270,7 @@
   .logo-cont {
     margin-top: -2px;
   }
+
   .menu_wrapper {
     margin-right: -200px;
   }
@@ -273,9 +280,11 @@
   .responsive-menu-toggle {
     right: 30px !important;
   }
+
   .menu-main-menu-container {
     margin-right: 120px !important;
   }
+
   .main-title-cont h1 {
     font-size: 50px;
   }
