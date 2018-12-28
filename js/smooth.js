@@ -1,12 +1,9 @@
-$(function($) {
-  // Select all links with hashes
-  $(".nav").click(function() {
-    $("li").removeClass("active");
-    var link = $(this).attr("href");
-    $(this)
-      .parent()
-      .addClass("active");
-    var posi = $(link).offset().top;
-    $("body,html").animate({ scrollTop: posi }, 700);
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
   });
 });

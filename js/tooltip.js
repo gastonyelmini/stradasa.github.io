@@ -1,4 +1,4 @@
-$(function() {
+jQuery(document).ready(function() {
   var targets = $("[rel~=tooltip]"),
     target = false,
     tooltip = false,
