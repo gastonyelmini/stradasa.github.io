@@ -88,8 +88,7 @@
   align-items: center;
 }
 
-.main-title-cont {
-}
+.main-title-cont {}
 
 .main-title-cont h1 {
   color: rgba(255, 255, 255, 1);
@@ -167,83 +166,6 @@
 /* Aria Nuova */
 .partners {
   margin-bottom: 15px;
-  max-width: 65% !important;
-  height: auto;
-}
-
-/* Amenities */
-.amenities {
-  padding: 1px;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.amenities-col {
-  width: 24%;
-  margin: 0 0.5% 5px 0.5%;
-  float: left;
-  border-radius: 50%;
-  background-color: #fbfbfb;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.amenities-col img {
-  width: 100%;
-}
-
-#tooltip {
-  text-align: center;
-  color: #fff;
-  background: #111;
-  position: absolute;
-  z-index: 100;
-  padding: 15px;
-}
-
-#tooltip:after /* triangle decoration */
- {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #111;
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-  margin-left: -10px;
-}
-
-#tooltip.top:after {
-  border-top-color: transparent;
-  border-bottom: 10px solid #111;
-  top: -20px;
-  bottom: auto;
-}
-
-#tooltip.left:after {
-  left: 10px;
-  margin: 0;
-}
-
-#tooltip.right:after {
-  right: 10px;
-  left: auto;
-  margin: 0;
-}
-
-.amenities-showcase .amenities {
-  margin: 30px 0 0 0;
-}
-
-/* Premio aria */
-.awards i {
-  font-size: 35px;
-  color: black;
-}
-.awards {
-  margin-bottom: -10px;
 }
 
 @media (max-width: 768px) {
@@ -258,7 +180,7 @@
   }
 
   .logo-single {
-    width: 13%;
+    width: 20%;
   }
 
   .logo-single .image-cont {
@@ -296,15 +218,6 @@
   /* Aria nuova */
   .render-aria {
     padding-left: 50px;
-  }
-
-  /* Amenities */
-  .amenities-col {
-    width: 10%;
-    margin: 0 0.5% 5px 0.5%;
-  }
-  .amenities-showcase .amenities {
-    margin: 30px 0 0 50px;
   }
 }
 
@@ -365,11 +278,6 @@
 
   .menu_wrapper {
     margin-right: -200px;
-  }
-  /* Amenities */
-  .amenities-col {
-    width: 8%;
-    margin: 0 0.5% 5px 0.5%;
   }
 }
 
